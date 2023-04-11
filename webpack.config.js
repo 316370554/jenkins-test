@@ -10,9 +10,9 @@ const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 module.exports = config = {
     resolve: {
         // 设置别名
-        alias: {
-            '@cesium': path.resolve(__dirname, 'src/_cesium')
-        },
+        // alias: {
+        //     '@cesium': path.resolve(__dirname, 'src/_cesium')
+        // },
         extensions: ['.ts', '.js']
     },
     mode: 'development',
